@@ -57,7 +57,7 @@ if \[ $# -eq 1 \]; then
 
   #add new ones to this line, in quotes and separated with |
   "FM" | "HAM")
-    echo "Parameter: $1 sdrpp --autostart --root \"$HOME/.config/sdrpp/$1\""
+    #echo "Parameter: $1 sdrpp --autostart --root \"$HOME/.config/sdrpp/$1\""
     sdrpp --autostart --root "$HOME/.config/sdrpp/$1"
     ;;
 
